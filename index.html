@@ -6,143 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
-    <title>Cadastro de Clientes | Digital Store</title>
+    <title>Digital Store | Thanks</title>
 </head>
 <body>
         <img src="img/logo-digitalStore.jpeg" alt="" class="logo-storm">
     
-    <main>  
-        <section class="hero">
-            <p>Preencha seus dados para emissão do Termo de garantia.</p>
-        </section>
-
-        <form 
-            id="contactform"
-            action="https://formsubmit.io/send/cristhiancezardev@gmail.com"
-            method="POST">
-            <!-- <input name="_redirect" type="hidden" id="name" value="">  -->
-            <input type="hidden" name="_template" value="table">
-        
-                <div class="wrapper selected">
-                    <label for="name">Nome:</label>
-                    <input type="text" class="input-value" name="Nome" id="name">
-                </div>
-
-                <div class="wrapper">
-                    <label for="date">Nascimento:</label>
-                    <input type="date" class="input-value" name="Data" id="data">
-                </div>
-
-                <div class="wrapper">
-                    <label for="cpf">CPF:</label>
-                    <input type="text" class="input-value" name="CPF" placeholder="Digite somente números" id="cpf">
-                </div>
-
-                <div class="wrapper">
-                    <label for="phone">Celular:</label>
-                    <input type="tel" class="input-value" maxlength="14" minlength="8" name="phone" id="phone">
-                </div>
-
-                <div class="wrapper">
-                    <label for="email">E-mail:</label>
-                    <input type="email" class="input-value" name="email" id="email">
-                </div>
-
-                <div class="wrapper">
-                    <label for="cep">Cep:</label>
-                    <input type="text" class="input-value" name="CEP" id="cep">
-                </div>
-
-                <div class="wrapper">
-                    <label for="street">Rua:</label>
-                    <input type="text" class="input-value" name="Rua" id="street">
-                </div>
-                <div class="wrapper">
-                    <label for="number">Número da Casa:</label>
-                    <input type="text" class="input-value" name="Número" id="number">
-                </div>
-                <div class="wrapper">
-                    <label for="district">Bairro:</label>
-                <input type="text" class="input-value" name="District" id="district">
-                </div>
-                <div class="wrapper">
-                    <label for="city">Cidade:</label>
-                    <input type="text" class="input-value" name="Cidade" id="city">
-                </div>
-                <div class="wrapper">
-                    <label for="state">Estado:</label>
-                    <input type="text" class="input-value" name="Estado" id="state">
-                </div>
-
-                <div class="wrapper">
-                    <label for="product">Produto Comprado:</label>
-                    <select name="products" class="list-products input-value select2" id="products" style="width: 100%;">
-                        <option value="iPhone XS" name="iPhone XS" class="item">iPhone XS</option>
-                        <option value="iPhone XS Max" name="iPhone XS Max" class="item">iPhone XS Max</option>
-                        <option value="iPhone SE" name="iPhone SE" class="item">iPhone SE</option>
-                        <option value="iPhone 8" name="iPhone 8" class="item">iPhone 8</option>
-                        <option value="iPhone 8 Plus" name="iPhone 8 Plus" class="item">iPhone 8 Plus</option>
-                        <option value="iPhone XR" name="iPhone XR" class="item">iPhone XR</option>
-                        <option value="iPhone 11" name="iPhone 11" class="item">iPhone 11</option>
-                        <option value="iPhone 11 Pro" name="iPhone 11 Pro" class="item">iPhone 11 Pro</option>
-                        <option value="iPhone 11 Pro Max" name="iPhone 11 Pro Max" class="item">iPhone 11 Pro Max</option>
-                        <option value="iPhone 12" name="iPhone 12" class="item">iPhone 12</option>
-                        <option value="iPhone 12 Mini" name="iPhone 12 Mini" class="item">iPhone 12 Mini</option>
-                        <option value="iPhone 12 Pro" name="iPhone 12 Pro" class="item">iPhone 12 Pro</option>
-                        <option value="iPhone 12 Pro Max" name="iPhone 12 Pro Max" class="item">iPhone 12 Pro Max</option>
-                        <option value="iPhone 13" name="iPhone 13" class="item">iPhone 13</option>
-                        <option value="iPhone 13 Mini" name="iPhone 13 Mini" class="item">iPhone 13 Mini</option>
-                        <option value="iPhone 13 Pro" name="iPhone 13 Pro" class="item">iPhone 13 Pro</option>
-                        <option value="iPhone 13 Pro Max" name="iPhone 13 Pro Max" class="item">iPhone 13 Pro Max</option>
-                        <option value="iPhone 14" name="iPhone 14" class="item">iPhone 14</option>
-                        <option value="iPhone 14 Plus" name="iPhone 14 Plus" class="item">iPhone 14 Plus</option>
-                        <option value="iPhone 14 Pro" name="iPhone 14 Pro" class="item">iPhone 14 Pro</option>
-                        <option value="iPhone 14 Pro Max" name="iPhone 14 Pro Max" class="item">iPhone 14 Pro Max</option>
-                        <option value="iPhone 15" name="iPhone 15" class="item">iPhone 15</option>
-                        <option value="iPhone 15 Pro" name="iPhone 15 Pro" class="item">iPhone 15 Pro</option>
-                        <option value="iPhone 15 Pro Max" name="iPhone 15 Pro Max" class="item">iPhone 15 Pro Max</option>
-                        <option value="APPLE WATCH ULTRA 49MM" name="APPLE WATCH ULTRA 49MM" class="item">APPLE WATCH ULTRA 49MM</option>
-                        <option value="APPLE WATCH SERIES SE 2 44MM" name="APPLE WATCH SERIES SE 2 44MM" class="item">APPLE WATCH SERIES SE 2 44MM</option>
-                        <option value="APPLE WATCH SERIES 8 45MM" name="APPLE WATCH SERIES 8 45MM" class="item">APPLE WATCH SERIES 8 45MM</option>
-                        <option value="MACBOOK AIR M1" name="MACBOOK AIR M1" class="item">MACBOOK AIR M1</option>
-                        <option value="MACBOOK AIR M2" name="MACBOOK AIR M2" class="item">MACBOOK AIR M2</option>
-                        <option value="MACBOOK PRO M2 1TB" name="MACBOOK PRO M2 1TB" class="item">MACBOOK PRO M2 1TB</option>
-                        <option value="IPAD 9ª" name="IPAD 9ª" class="item">IPAD 9ª GERAÇÃO</option>
-                        <option value="IPAD 10ª" name="IPAD 10ª" class="item">IPAD 10ª</option>
-                        <option value="IPAD AIR 5ª GERAÇÃO" name="IPAD AIR 5ª GERAÇÃO" class="item">IPAD AIR 5ª GERAÇÃO</option>
-                        <option value="Xiaomi Redmi 12C" name="Xiaomi Redmi 12C" class="item">Xiaomi Redmi 12C</option>
-                        <option value="Xiaomi Redmi 12" name="Xiaomi Redmi 12" class="item">Xiaomi Redmi 12</option>
-                        <option value="Xiaomi Note 12" name="Xiaomi Note 12" class="item">Xiaomi Note 12</option>
-                        <option value="Xiaomi Note 12S" name="Xiaomi Note 12S" class="item">Xiaomi Note 12S</option>
-                        <option value="Xiaomi Note 12 Pro" name="Xiaomi Note 12 Pro" class="item">Xiaomi Note 12 Pro</option>
-                        <option value="Xiaomi Note 12 Pro+ 5G" name="Xiaomi Note 12 Pro+ 5G" class="item">Xiaomi Note 12 Pro+ 5G</option>
-                        <option value="Xiaomi Poco X5 5G" name="Xiaomi Poco X5 5G" class="item">Xiaomi Poco X5 5G</option>
-                        <option value="Xiaomi Poco X5 Pro 5G" name="Xiaomi Poco X5 Pro 5G" class="item">Xiaomi Poco X5 Pro 5G</option>
-                        <option value="Xiaomi Mi 13 Lite 5G" name="Xiaomi Mi 13 Lite 5G" class="item">Xiaomi Mi 13 Lite 5G</option>
-                        <option value="Xiaomi Poco F5 Pro 5G" name="Xiaomi Poco F5 Pro 5G" class="item">Xiaomi Poco F5 Pro 5G</option>
-                        <option value="Xiaomi REDMI PAD" name="Xiaomi REDMI PAD" class="item">Xiaomi REDMI PAD</option>
-                        <option value="REDMI NOTE 11 PRO 4G" name="REDMI NOTE 11 PRO 4G" class="item">Xiaomi REDMI NOTE 11 PRO 4G</option>
-                        <option value="REDMI NOTE 11 PRO +5G" name="REDMI NOTE 11 PRO +5G" class="item">Xiaomi REDMI NOTE 11 PRO +5G</option>
-                    </select>
-                </div>
-
-            <div class="buttons">
-                <button type="submit" class="send buttons" id="send">Enviar dados</button>
-                <button type="button" class="next buttons" id="next">Próximo</button>
-                <button type="button" class="back buttons" id="back">Voltar</button>
-            </div>
-        </form>
-    </main>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/skip.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $('.select2').select2();
-        });
-    </script>
+    <!-- <main>  
+        <h1>MUITO OBRIGADO POR DEIXAR A <STRONG>DIGITAL STORE</STRONG> FAZER PARTE DESSE MOMENTO INCRÍVEL <BR> &#128153; </h1>
+    </main> -->
+    <img src="img/WhatsAp.jpeg" alt="">
 </body>
 </html>
